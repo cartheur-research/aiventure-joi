@@ -32,10 +32,14 @@ This was already in-place, the problem was that `aplay` was only for `root`, so:
 
 And a reboot solved the issue.
 
+Also create a file with the code at:
+
+`/home/.config/alsa/asoundrc`
+
 ### Asynchronous behavior
 
-Missing from the arm32 codebase, but in the huggable stack.
+Missing from the arm32 codebase, but in the huggable stack. DONE
 
 ### Bash shell generalization
 
-Also missing. Will need huggable code.
+Also missing. Will need huggable code. DONE
