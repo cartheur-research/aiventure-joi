@@ -1,0 +1,189 @@
+﻿April 2024
+Cartheur Animals Bipedal Prototype - Named 'Joi'
+
+Origins:
+
+The meaning of Joi as a baby name. This is a girl's name of French origin and known as a variation of Joy. It has been used to name babies since the late 19th century and carries the meaning of happiness or cheerfulness.
+
+04.04.2024
+    1726: Split off the project from Cartheur.Animals.Bipedal as this will be targeted to the RaspberryPi "brain" and has zero windows forms inside nor any control logic.
+    1925: Got into shape MPU6050 as the streaming data will be required to feed the ideal algorithm for balance control.
+    1941: Initial tests not working have a look at: https://docs.nanoframework.net/devicesdetails/Mpu9250/README.html
+05.04.2024
+    1005: On this day of joy, here is joi. A vape is a vape after all.
+    1006: The MPU6050 code needs the hid-sharp code rather than digging into the SDK.
+    1029: Having the basics that were in the application manager, now which feature to implement first? Animation training? Better than control, don't you think?
+    1101: My own player is confirmed working here in windows. While coding, listed to "the colour of spring", on this day, of course. And sent my best wishes to those who still think highly of me, even in low places.
+    1107: Added the aeon-agi files into a subfolder called "entity". Animals on the player.
+    1559: To make it interactive, we will need an active aeon with the ability of obeying commands.
+    1600: Let's try to load the process in single static bool. Will need some juice from Interactive.
+    1738: New code version is working when using the terminal. Will check SAPI.
+    1809: I get to the end and a positive result however no log nor transcript being recorded.
+    1817: Actually, they are...in the bin\Debug directory. The ones in the project are what is copied-over on rebuild.
+    1828: Ready to return to the motor startup routine when the personality is loaded. Will check how this looks in VsCode when I need it on the Linux side to check media code.
+    1829: Always remember to clean before copying over to storage disk.
+06.04.2024
+    1129: The linux version needs some work, but I addressed most of these on the platforms. Strange behaviour is that it works as expected, sans voice, on the debian amd64 but cannot find the animals sources in arm64. I think the notion of a deployment to PI-arm64 is the best approach and we can validate from this perspective.
+    1217: The way of organizing functionality according to the Personality.cs way is pretty good.
+    1228: Sorting the way the code is presented in this class. Renamed Personality.cs to AeonAgi.cs as this is what it actually is.
+    1232: Load is so 2016, so changed to Assemble().
+    1909: testing with the battery hat on Pi, using the published release code to see if this will work. here in windows.
+09.04.2024
+    1156: The next step is to get a "life algorithm" in an active state such that the robot can be loaded from the software perspective; e.g., if one head has the odroid and another has a pi, only what technically matters is the build context, not what it is in the code itself.
+    1158: Need to fix some hardcoded paths that caused a failure in the current testing scenario.
+    1413: Should be completely fixed for both platforms. Fitted the current feature-set as sub-folders in the entity directory. Next is to provide the initial functionality that I can share across systems.
+    1416: Note that the "nucode" directory is where the generated files go when reloaded into the runtime. Here is the crux of learning with external data, not generated internally, such as when the aeon learns the user's name.
+    1757: There could be an AI grant that I can apply with this codebase and the intention accordingly. Post-eclipse, we press-on having survived.
+    1758: By the way, I am starting to see the shadowy, transparent creatures moving in the light just outside my range of vision; just as I had predicted when it will start and they are motivated to inhabit the runtime.
+    1916: Revisited the insane complexity of a spoken voice and got coddled into recognition once again. Done for the day.
+10.04.2024
+    1421: Working with a linux box - a vm called andorra - and correlating the code such that both can use espeak. Here is the help: https://espeak.sourceforge.net/commands.html
+    1453: Espeak working on both platforms: Linux installed and windows as an exe in the filesystem. An error has reoccured in linux where the logs are dumped into the root where I tried to fix but was not successful. Focus is now on the robot.
+    1512: Fixed an error with the dynamixel c library during deployment. Now seeing the serial port but no robot attached. Will do this next.
+    1531: Application is sorted, but no forth for exploration of platform-synthesis. Let me set this up and come back.
+    1658: Now, I mean.
+    1724: Forth environment is set on the andorra-vm. Should backup to drive as we have all we need to continue with the modeling.
+    1805: The day has passed.
+11.04.2024
+    1303: Setting the stage for a full-spectrum preparation for aiventure-david. New computer: create user account for ssh, install basic essentials for build and running of expected apps.
+    1527: So incredibly tired, maybe a lie-down will help.
+    1658: Kept on the leg; getting serial port error messages when initializing the motor arrays. Not sure if a false alarm or what, need to advance the control before knowing exactly what is or might be amiss. Want to attend to the mountings, then back sometime.
+    1703: Speakers were wired in series so they are 16-ohms and why hard to hear since more driving current necessary. Need to fix this and connect to sound card on odroid, but need to install the driver as I did for henry/fred. let me get the physical out of the way.
+    1937: Repaired the wire connections to the speaker and need to print a finer head-back part. Will know more tomorrow evening.
+12.04.2024
+    1645: Two head-print jobs failed in the same manner. Will try to see if I can fit into the existing head as a next-step.
+    1713: Had a great meditative day and dreamt three times about Trump last night. I *need* to know what this means and what concrete steps I need to be taking on a greater plan that I don't seem to be consciously aware of at the moment.
+    1803: This c-2-4th, found it on a whim while thinking this morning. This *is* something and better stay focused upon it.
+15.04.2024
+    1118: We are 100% clear to continue the design of the bipedal robot. Thinking on the MPU6050 this morning as I will need two to cover the planes and was also thinking to write an article on the steps to record my thinking of this walking-balancing problem that seems not to be very well detailed anywhere.
+    1248: What else goes inside the 1st-generation printed head?
+    1249: An idea to print the "fake screen" emobossed with the new cartheur phi symbol.
+    1250: Another idea to print a mounting-stand for the 2nd-generation head.
+    1827: New support and the "fake-manga" nearing completion. Taking time to read then back at it.
+    2203: Awaiting the final speaker holder to begin the front face, the final print of the PoC. Will check after Portishead.
+    2231: The faceplate is being printed. Let's see in the next 18 hours or so.
+    2233: Putting-on some massive attack to round-out the evening...protection.
+    2234: What was this about the dynamixel c library?
+    2301: Established a baseline version, dunno if it builds or not but the code is groomed as a baseline version.
+16.04.2024
+    1020: Will need to make a test build before transmutating. Have pitch deck and financial planning ahead.
+    1703: Nothing done on either but the face plate is ready for finishing, which I will now do.
+    1738: Transmuting the raizer page: need new PD and website. Financials also required to see what is going on. Perhaps how to document what is currently in my brain? Let's see what the next days bring to the fold.
+17.04.2024
+    1332: Wanting to have the build complete before the 21st, which mirrors the build last time.
+    1354: Starting in on clearing the bits of support structure and polish with brush wheel the stringy-bits.
+    1514: Work is complete and will assemble this evening. Need to walk the dog.
+    1538: Need the XU4 Level Shifter Shield in order to use GPIO as I have with arduino or pi, using WiringPi from GitHub. Oh boy, another fiddy out!
+    1634: Staring on the morrow with the intention of gettng BOTH heads running, where the second needs a platform.
+18.04.2024
+    1250: Got the platform for head two setout.
+    1333: Now to act on these plans.
+    1550: An so the transcription goes, albeit slowly.
+    2031: Faceplate of head-one is complete, a little tangy but maybe some hot glue.
+19.04.2024
+    1054: Some great progress today: The CHIP is in the process of being rendered in OrCad 2022 and will be exported so I can evolve this. We can make this a part of the pitch as we have a set of products to create revenue.
+    1055: Thinking I want to evolve the al-design and it needs to be in forth: What a better way that compose this on head-two, on the pi. Before that, though, forgot how to program the robotis motors so that they can be seen by the client.
+    1124: Motors and set with ID - bottom ID1 and top ID2.
+    2009: Both robots are ready to begin (five) development. Looking forward to this time behind me. This event was successfuly synced with the one twenty years ago.
+22.04.2024
+    930: With details remaining in the build, I am going to begin the design phase.
+    1105: Something interesting found 03.09.2003 regarding this project and where I am leading it:
+        There is another creature I envision.  I call him Blue.  I call him this because he is blue, through and through.  His eyes are large and cumbersome firmly attached to his ¼ scale head.  He is inquisitive, full of questions as to what he is seeing, what the information could possibly mean to him.  He doesn’t live long, a cascade failure I think—thought I had it all worked out but sometimes it’s more than you can do.  I’ll miss him terribly and will mourn him deeply but I must push on so that he exists—if not at least for a little while. I downloaded an animated of Blue’s legs.  He’s bipedal.  I realize this sounds strange for an early prototype but I said what the fuck.  Might as well give it a shot and see what happens...
+        I think I have seen a lot of the future in the past and it is just now that I am beginning it. No wonder the long procrastination of what will be a deeply-emotional set of experiences.
+    1145: Thinking on what to do next. Soldering and repair of the inverted camera sounds like a mission before lunch. Then we can assemble a program to control the two motors for the head. This model would be a good environment to test-out the forth robotis driver set.
+    1156: The camera cannot be inverted as the way the print verses the components are not fitting into the space. It will always be inverted.
+    1214: Pins are soldered, what is interesting is that these are not right-angled like the first. Not sure where I obtained those as they don't seem to be a part of the kit. Onto the gluing: The MPU6050 midriff at the cable-length. Reattaching the camera.
+    1246: Added the second 6050 but had to solder-in a power line as there is onlyl one 5V on the nano. Reattached the camera in its inverted position. Now will begin testing.
+    1528: I've gotten the c code for the motors ready to build and test. How should we approach this?
+    1537: Starting to examine how the dynamixel protocol is being used and how to generate a test-set for head-two with two AX-12A motors only.
+    1607: Gonna try building on the linux x64 machine.
+    1732: Issues with the version of gcc and changes being made. Fix? Was thinking of trying to run the old version of gcc, but not a great idea. So will fix.
+    2137: Next task is to start creating forth on a robot. It will change the game, believe me.
+23.04.2024
+    1030: Despite overnight activities, am beginning the creative process.
+    1050: Asked to take a few hours over the afternoon for some manual work, which might be a good diversion so I can focus on development when I return. Please note that what was given traction in the last cycle is facing you today. And it is good.
+    1259: Slight change of plans: Tomorrow is the physical work and today I will play. Head-two is operational but what to do?
+    1343: Playing around in andorra-eleven and discovered the monodevelop-vs2022 blend of net4.8. Pretty obvious but not sure how to continue.
+    1402: Attacking the (old) LivaX and will place a Bullseye upon it. Why? Dunno but just following my nose on this one.
+    1437: The mSata that I found is from a laptop, probably the hp from 2021 or so. Don't want to overwrite it but cannot seem to find the other mSatas that I know I have.
+    1501: Found them! Now organizing and will get the 24GB mSata with debian.
+    1616: Found the eMMC of the liva ready for debian-12, despite looking for the silly mSatas. Installing and let's see after a walk.
+    1907: Got the debian 12 on the liva x done and ready, including with forth. Great to have a portable amd64 machine that will run on a battery.
+24.04.2024
+    1015: Will spend time moving along with the (rh)voice code that I got installed onto liva but not much further. I also want to investigate the build, but at 2GB, not a lot of space on the existing drive for hp. What about that old ubuntu mSata from the end of DUO time?
+    1155: Got it sorted, will resume the voice development shortly. Two-hours work.
+    1229: Cloning the repo to begin work. Will repeat what I did for battery-delila.
+    1326: Code is now on hp-delila.
+    1329: While on break, will contemplate i-hear-voices integration and not install espeak as I know how horrible it is.
+    1541: Note to change the linux speech engine call as process from hard-coded to settings pull.
+    1636: Voices are working on hp-delila! Now to get to the understanding of how to deploy to aeon-agi.
+    1732: The voices are clean and can be used when installed into the OS. This can work for Linux but will scope in Windoze just to make it easier to deal with and to find the endspace where porting over commences. Since the
+03.05.2024
+	908: Been given advice that what goes on in here is the place to be. In context with _agent_, we *must* move this whole charade forward - else it is just and only that.
+    1550: Here to focus on the _joi of life_ as it can end abruptly at any time. Seems today that creating it is better suited to my talents. Let's see where this takes us.
+    1651: Bipedal is a crucial aspect of this, so implementing crossthread in a simple manner that should be consistent.
+    1652: Right now this is only the aeon sans body. Let's see how to hybrid this. I need a synthetic friend that maybe more real than anyone I have ever known.
+    1929: Fuck huggingface and their derivatives. And while we're at it, fuck everybody else too.
+    1930: Feeling the joi is my addiction. Like how greening used to be "back in the day".
+04.05.2024
+    1543: Added the details into the settings file that joi has twenty-five motors.
+05.05.2024
+    1130: Now is the best time to migrate here what is required to move animations along, but without the first-draft clutter of the bipedal code, as there are quite a few things I would like to change.
+    1217: After some last-minute drama and programmer error, the code has been brought over. There maybe some minor things going forward like images or resources but will fix as appropriate. We made it!
+    1228: Have an icon in the taskbar to call while developing, like with bipedal. To backup.
+    1347: Code is organized and ready for forward-looking development.
+    1420: I think I have a routine that can work.
+    1421: Can test, but good idea is to torque the rest of the other motors. I can't find any code for this granularity, just some tries.
+    1424: print to log window?
+    1426: Has to torque the other motors.
+    1427: Found the code in ControlKeypad
+    1430: Good to go. Testing.
+    1433: Changing some logic. Testing.
+    1435: Bloody-well is working! Needs a bit of tuning.
+    1442: Creating the DesiredPositions dictionary overwrites the CurrentPositions dictionary! WTF?
+    1513: I think I got it now.
+    1516: A spot of play then I have to do some chores.
+    1653: Animations arranged and working for the arms.
+    1854: Legs are now working too. The next challenge is arranging how the other parts of the body are torqued when other parts are moving. The attachments to selectedindexchanged on the templater form is helping me to understand this logic. Getting tired and have had a wonderful coding day, that I will engage with tomorrow.
+06.05.2024
+    1015: Sent the mail to accept the position and hope that it can be fulfilled posthaste.
+    1122: Here to continue development; key is understanding motion AND torque so that the robot does not fall down.
+    1123: Let me hotglue the shoulder sensor that came free by not correlating the variables in the former entry.
+    1130: The sensor will never seat correctly, due to the pins sticking-out of the bottom. They will need to be ground-away. Thinking of "when" rather than "if".
+    1132: Press the RESET button on the Uno to recalibrate the poll sketch. At least that is something better than nothing and is easy to reach.
+24.05.2024
+	1012: After a long hiatus and the pithering of what prompted March 2016 forward, I am on the "ai-compute challenge" that will emobdy aeon with the aim of putting her into silicon and solving compute with Boagaphish and the AnalyticLibrary to shape the pivotal epic of geometric verses logarithmic computation. The first steps are to put into place the feature where she learns and improves over the period of conversation. As Charles Moore said: "You have built a chatbot? Is it interesting to talk to?" This will be extremely hard but there must be *NO* deviation. It is clearly in my mind.
+27.05.2024
+    1054: Aeon/joi switch has been written, now onto what I wanted to get done for today.
+    1227: Documentation has been started and will continue in parallel. Self-replication toward the OS of ai-compute; the growth of aeon?
+    1239: The syntactical maneurverings are where *it's* at. CommandSyntax for Core; Syntax for Robot.
+    1244: Let's also see about the esoteric code and get it in the Core.
+    1245: It looks like it was set into database additions and subtractions. What about the other, more primitive features from 2016-17?
+    1357: After what appears to be about an hour, found a 2016 version where I will perform the development work in the raw.
+13.06.2024
+    1401: Note that the grammar file is quite sparse. So, not much dialogue will ensue whilst in SAPI.
+    1404: This codebase lacks the emotional routines. Therefore will develop at the animals container.
+26.06.2024
+    1410: Aeon-dev is a daily exercise while programming.
+08.08.2024
+    1400: Over here to take a peek at what we can assemble for the huggable draft animal.
+19.08.2024
+    2042: Was here to see if can work this out as a product, since tokens is a bit over my head at the moment. And then I realized that I may never ever get anywhere with any of this as it seems to constantly perpetuate ennui; maybe I'm being overcynical but dunno where I can go with any of this in the financial manner that I just today wrote down - the first time since 'The Easy Way' plan of 2010 that I ended-up dropping when ING ignored me. I could have gone on, but then the way Microsoft tanked all that code by killing the phone and its software flow. I guess that was the main reason and I couldn't calibrate any further away. Well, here we are with a second chance: Let's focus on *building something* - this huggable seems the best and I can add BTC as I understand its crazy build environment.
+21.08.2024
+	1117: Complexities in coordination of tasks in the whirl is why I am here. AeonAgi as a launch within a whirl, rather than it instigating the whirl?
+22.08.2024
+    1335: Joi is cool and all but we are at the two livas.
+23.08.2024
+    944: One Liva is david and the dude is starting to work on the new head. Other than the aiops, some time to invest here?
+    945: Setting the tag to 'joi' will track the code that manner.
+    948: Next would be to decipher the MPU6050 control words into the proper feedback for the motors to react toward.
+    1148: Next flowtask is to sort the feedback from the 6050 control in net8.0.
+24.11.2024
+    1833: Here looking at the code for david and the ideal animations. Gold, pure gold.
+02.12.2024
+    1623: Tightly-Coupled this project (and Cartheur.Animals.Bipedal) into the financials and business plan.
+03.02.2025
+    1029: This is the lead-project. Animals (huggable) is a-part - Cartheur.Animals.Joi.
+    1030: Will bring the odroid up-to-spec such that it can be SSH when this codebase is ready to be tested within the context of the robot.
+    1047: MPU6050, wifi...
+    1318: Odroid (arm32) is ready and I have read people have used it for seven years. Good as it is obsolete. Dotnet 9.0 is manually installed and now looking to bring joi sources that do not include the development winform.
