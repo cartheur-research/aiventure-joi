@@ -25,3 +25,9 @@ ctl.!default {
 Then run the first time:
 
 `aplay -v speech.wav`
+
+This was already in-place, the problem was that `aplay` was only for `root`, so:
+
+`sudo usermod --append --groups audio cartheur`
+
+And a reboot solved the issue.
