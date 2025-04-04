@@ -31,3 +31,7 @@ This was already in-place, the problem was that `aplay` was only for `root`, so:
 `sudo usermod --append --groups audio cartheur`
 
 And a reboot solved the issue.
+
+### Asynchronous behavior
+
+Missing from the arm32 codebase, but in the huggable stack.
