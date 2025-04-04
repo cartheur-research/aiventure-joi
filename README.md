@@ -4,7 +4,7 @@ The david robot in a fun and engaging package. Clarity and purpose is the method
 
 ### USB sound card
 
-When using the USB sound card, create a file:
+When using the miniature black-case USB sound card, create a file:
 
 `sudo nano /etc/asound.conf`
 
