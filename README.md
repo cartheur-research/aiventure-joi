@@ -35,3 +35,7 @@ And a reboot solved the issue.
 ### Asynchronous behavior
 
 Missing from the arm32 codebase, but in the huggable stack.
+
+### Bash shell generalization
+
+Also missing. Will need huggable code.
