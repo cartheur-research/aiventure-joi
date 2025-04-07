@@ -43,3 +43,7 @@ Missing from the arm32 codebase, but in the huggable stack. DONE
 ### Bash shell generalization
 
 Also missing. Will need huggable code. DONE
+
+### Simulating positions
+
+Start with [this](https://docs.poppy-project.org/en/installation/install-vrep.html)
