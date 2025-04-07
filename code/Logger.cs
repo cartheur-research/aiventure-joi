@@ -104,6 +104,10 @@ namespace Cartheur.Animals.Utilities
             /// </summary>
             Gossip,
             /// <summary>
+            /// The gpio interface.
+            /// </summary>
+            Gpio,
+            /// <summary>
             /// The input.
             /// </summary>
             Input,
@@ -116,7 +120,7 @@ namespace Cartheur.Animals.Utilities
             /// </summary>
             Indications,
             /// <summary>
-            /// The learn.
+            /// The learning engine.
             /// </summary>
             Learn,
             /// <summary>
@@ -180,7 +184,7 @@ namespace Cartheur.Animals.Utilities
             /// </summary>
             Xms,
             /// <summary>
-            /// The whirl.
+            /// The whirl feature.
             /// </summary>
             Whirl
         }
