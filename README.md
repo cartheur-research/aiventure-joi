@@ -2,6 +2,10 @@
 
 The david robot in a fun and engaging package. Clarity and purpose is the method and means.
 
+### Printing
+
+Collected in areas of the [form](/form/README.md).
+
 ### USB sound card
 
 When using the miniature black-case USB sound card, create a file:
@@ -46,4 +50,4 @@ Also missing. Will need huggable code. DONE
 
 ### Simulating positions
 
-Start with [this](https://docs.poppy-project.org/en/installation/install-vrep.html)
+Start with [this](https://docs.poppy-project.org/en/installation/install-vrep.html). But have found this is a waste of time.
