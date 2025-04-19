@@ -14,4 +14,5 @@ _PLA - 1.75mm_
 * Substrate temperature 60C
 * Printing speed 50 mm/s
 
-The `*.gx` files are set to these sets of conditions.
+* The `*.gx` files are set to these sets of conditions.
+* The `*.fpp` files are FlashForge projects that source these conditions.
