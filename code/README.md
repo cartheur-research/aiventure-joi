@@ -1,3 +1,0 @@
-## Code exchange folder
-
-shh...
