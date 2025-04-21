@@ -51,3 +51,7 @@ Also missing. Will need huggable code. DONE
 ### Simulating positions
 
 Start with [this](https://docs.poppy-project.org/en/installation/install-vrep.html). But have found this is a waste of time.
+
+### About
+
+![369](/images/joi-369.png)
