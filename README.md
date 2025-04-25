@@ -16,7 +16,7 @@ _What about it?_
 	- Self-adapting to dynamic events
 * Animation training standard
 	- No programing required
-	- Learns by show
+	- Learns by show-and-tell
 	- Refines animation automatically
 
 ### Operations
