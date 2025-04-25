@@ -4,7 +4,8 @@ The david robot in a fun and engaging package. Clarity and purpose is the method
 
 _What about it?_
 
-* 1.30m tall, robust Robotis motors, high-strength plastic for weight and loss of user _fear factor_
+* 84 cm tall at 3.5 kg; high-strength plastic for loss of user _fear factor_
+* Robotis MX-28AT motors; stall torque of 3.1 N.m at 12 V, rated torque of 0.5 N.m
 * Microphone, speakers, camera
 * Three accelerometers for redudant walking stabilization
 * AeonAI presence standard
