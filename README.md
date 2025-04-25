@@ -10,10 +10,10 @@ _What about it?_
 	- Replacement parts can be reprinted
 * Efficient motors for limbs, powerful motors for bipedal stabilization
 
-	| Actuator | Stall Torque (N.m) | Rated Torque (N.m) |
-	|----------|--------------------|--------------------|
-	| MX-28AT  | 3.1                | 0.5                |
-	| MX-64    | 6.3                | 1.2                |
+	| Actuator |   Limbic  | Stall Torque (N.m) | Rated Torque (N.m) |
+	|:--------:|:---------:|:------------------:|:------------------:|
+	|  MX-28AT | Arms Legs |         3.1        |         0.5        |
+	|   MX-64  |   Pelvis  |         6.3        |         1.2        |
 
 * Microphone, speakers, camera
 	- Can detect user voice commands up to 5 meters
@@ -35,10 +35,6 @@ _What about it?_
 	- No programing required
 	- Learns by show-and-tell
 	- Animation refined automatically
-
-### Motor specification (12 V)
-
-
 
 ### Operations
 
