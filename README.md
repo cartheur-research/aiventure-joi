@@ -8,7 +8,7 @@ _What about it?_
 	- If it scares you, it can be readily broken
 	- Robust enough to withstand fall impacts
 	- Replacement parts can be reprinted
-* Durable Robotis motors: Tailored for power and precision in the bipedal form, powerful bipedal stabilization
+* Durable Robotis motors: Tailored for precision in the bipedal form, power in bipedal stabilization
 
 	| Actuator |   Limbic  | Stall Torque (N.m) | Rated Torque (N.m) |
 	|:--------:|:---------:|:------------------:|:------------------:|
