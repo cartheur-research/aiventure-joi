@@ -20,7 +20,7 @@ _What about it?_
 * Microphone, speakers, camera
 	- Can detect user voice commands up to 5 meters
 	- Multimedia playback for voicing and event notifications
-	- Emotional detection via face gestures
+	- Emotional detection via face gestures and spoken tone
 * Three accelerometers for redudant walking stabilization
 	- Independent `X`, `Y`, and `Z` at all gaits
 	- SerDes data reporting
