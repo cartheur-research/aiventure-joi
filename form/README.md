@@ -1,6 +1,6 @@
 ## The form of joi
 
-Here contains the STLs of the form of joi.
+Here contains the refined STLs that are originally kept [here](https://github.com/cartheur-david/bipedal).
 
 ### Print conditions
 
