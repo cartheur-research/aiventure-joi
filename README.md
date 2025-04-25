@@ -9,8 +9,20 @@ _What about it?_
 	- Robust enough to withstand fall impacts
 	- Replacement parts can be reprinted
 * Efficient motors for limbs, powerful motors for bipedal stabilization
+
+	| Actuator | Stall Torque (N.m) | Rated Torque (N.m) |
+	|----------|--------------------|--------------------|
+	| MX-28AT  | 3.1                | 0.5                |
+	| MX-64    | 6.3                | 1.2                |
+
 * Microphone, speakers, camera
+	- Can detect user voice commands up to 5 meters
+	- Multimedia playback for voicing and event notifications
+	- Emotional detection via face gestures
 * Three accelerometers for redudant walking stabilization
+	- Independent `X`, `Y`, and `Z` at all gaits
+	- SerDes data reporting
+	- Tied to the controller for real-time actions
 * AeonAI presence standard
 	- Voice communication as conversation
 	- Voice command as instructions
@@ -26,10 +38,7 @@ _What about it?_
 
 ### Motor specification (12 V)
 
-| Actuator | Stall Torque (N.m) | Rated Torque (N.m) |
-|----------|--------------------|--------------------|
-| MX-28AT  | 3.1                | 0.5                |
-| MX-64    | 6.3                | 1.2                |
+
 
 ### Operations
 
