@@ -30,6 +30,7 @@ A test of the rebuild and assurance hardware is prepared for the intensive progr
 ![ops-check-2025](/images/ops-check.png)
 _A shot from the perspective of joi_
 
-### About
+### Where are we headed
 
 ![369](/images/joi-369.png)
+_The advancement map_
