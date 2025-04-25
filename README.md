@@ -2,6 +2,15 @@
 
 The david robot in a fun and engaging package. Clarity and purpose is the method and means.
 
+### Operations
+
+A test of the rebuild and assurance hardware is prepared for the intensive programming and training exericises ahead:
+
+* AeonAI presence
+* Ideal controller
+
+![ops-check-2025](/images/ops-check.png)
+
 ### Printing
 
 Collected in areas of the [form](/form/README.md).
