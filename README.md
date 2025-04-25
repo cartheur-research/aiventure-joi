@@ -17,7 +17,7 @@ _What about it?_
 * Animation training standard
 	- No programing required
 	- Learns by show-and-tell
-	- Refines animation automatically
+	- Animation refined automatically
 
 ### Operations
 
