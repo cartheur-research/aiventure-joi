@@ -1,6 +1,8 @@
 ## aiventure-joi
 
-The david robot in a fun and engaging package. Clarity and purpose is the method and means. What about it?
+The david robot in a fun and engaging package. Clarity and purpose is the method and means.
+
+_What about it?_
 
 * 1.30m tall, robust Robotis motors, high-strength plastic for weight and loss of _fear factor_
 * Microphone, speakers, camera
