@@ -23,6 +23,9 @@ A test of the rebuild and assurance hardware is prepared for the intensive progr
 
 * AeonAI presence
 * Ideal controller
+	- Standing and walking
+* Animation training
+	- Data storage and entropy
 
 ![ops-check-2025](/images/ops-check.png)
 _A shot from the perspective of joi_
