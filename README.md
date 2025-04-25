@@ -10,6 +10,7 @@ A test of the rebuild and assurance hardware is prepared for the intensive progr
 * Ideal controller
 
 ![ops-check-2025](/images/ops-check.png)
+_A shot from the perspective of joi_
 
 ### Printing
 
