@@ -12,6 +12,8 @@ _What about it?_
 
 	| Actuator |   Limbic  | Stall Torque (N.m) | Rated Torque (N.m) |
 	|:--------:|:---------:|:------------------:|:------------------:|
+	|  AX-12A  |    Head   |         1.5        |        0.18        |
+	|  AX-18A  |    Neck   |         1.8        |         0.2        |
 	|  MX-28AT | Arms Legs |         3.1        |         0.5        |
 	|   MX-64  |   Pelvis  |         6.3        |         1.2        |
 
