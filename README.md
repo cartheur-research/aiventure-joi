@@ -5,7 +5,7 @@ The david robot in a fun and engaging package. Clarity and purpose is the method
 _What about it?_
 
 * 84 cm tall at 3.5 kg; high-strength plastic for loss of user _fear factor_
-* Robotis MX-28AT motors; stall torque of 3.1 N.m at 12 V, rated torque of 0.5 N.m
+* Efficient motors for limbs, powerful motors for bipedal stabilization
 * Microphone, speakers, camera
 * Three accelerometers for redudant walking stabilization
 * AeonAI presence standard
@@ -19,6 +19,13 @@ _What about it?_
 	- No programing required
 	- Learns by show-and-tell
 	- Animation refined automatically
+
+### Motor specification (12 V)
+
+| Actuator | Stall Torque (N.m) | Rated Torque (N.m) |
+|----------|--------------------|--------------------|
+| MX-28AT  | 3.1                | 0.5                |
+| MX-64    | 6.3                | 1.2                |
 
 ### Operations
 
