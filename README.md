@@ -4,7 +4,10 @@ The david robot in a fun and engaging package. Clarity and purpose is the method
 
 _What about it?_
 
-* 84 cm tall at 3.5 kg; high-strength plastic for loss of user _fear factor_
+* 84 cm tall at 3.5 kg constructed of high-strength plastic for ideal weight and reduction of user _fear factor_
+	- If it scares you, it can be readily broken
+	- Robust enough to withstand fall impacts
+	- Replacement parts can be reprinted
 * Efficient motors for limbs, powerful motors for bipedal stabilization
 * Microphone, speakers, camera
 * Three accelerometers for redudant walking stabilization
