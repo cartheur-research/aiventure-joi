@@ -1,6 +1,21 @@
 ## aiventure-joi
 
-The david robot in a fun and engaging package. Clarity and purpose is the method and means.
+The david robot in a fun and engaging package. Clarity and purpose is the method and means. What about it?
+
+* 1.30m tall, robust Robotis motors, high-strength plastic for weight and loss of _fear factor_
+* Microphone, speakers, camera
+* Three accelerometers for redudant walking stabilization
+* AeonAI presence standard
+	- Voice communication as conversation
+	- Voice command as instructions
+* Ideal controller standard
+	- Self-learning
+	- Self-programming
+	- Self-adapting to dynamic events
+* Animation training standard
+	- No programing required
+	- Learns by show
+	- Refines animation automatically
 
 ### Operations
 
