@@ -14,6 +14,7 @@ _What about it?_
 * AeonAI presence standard
 	- Voice communication as conversation
 	- Voice command as instructions
+	- Choice of voice characterization
 * Ideal controller standard
 	- Self-learning
 	- Self-programming
